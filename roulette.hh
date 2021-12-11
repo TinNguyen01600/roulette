@@ -14,7 +14,8 @@ class Number
 {
     int value;
 public:
-    bool area1(int);
+    bool area1();
+    bool area2();
 };
 
 void welcome();
