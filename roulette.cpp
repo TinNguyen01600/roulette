@@ -1,5 +1,11 @@
 #include "roulette.hh"
 
+bool Number::area1()
+{
+    if (this -> value <= 12){ return true; }
+    else return false;
+}
+
 void welcome()
 {   
     gotoxy(38,0);

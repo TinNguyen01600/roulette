@@ -10,6 +10,13 @@ using namespace std;
 #define cyan 11
 #define yellow 14
 
+class Number
+{
+    int value;
+public:
+    bool area1(int);
+};
+
 void welcome();
 void print_roulette_table();
 void set_color( int code );
