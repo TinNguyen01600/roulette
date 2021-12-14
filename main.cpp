@@ -2,7 +2,12 @@
 
 int main(){
     system("cls");
-    welcome();
+    //welcome();
 
-    print_roulette_table();
+    Number *number = new Number[36];
+    initialize(number);
+    print_roulette_table(number);
+
+    //number[33].print_data();
+    
 }

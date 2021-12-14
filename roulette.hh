@@ -11,14 +11,16 @@ using namespace std;
 #define yellow 14
 
 class Number
-{
+{   
     int value;
+    int color;
 public:
-    bool area1();
-    bool area2();
+    void set_data(int, int);
+    void print_data() ;
 };
 
 void welcome();
-void print_roulette_table();
+void initialize(Number *number);
+void print_roulette_table(Number *number);
 void set_color( int code );
 void gotoxy(int x, int y);
