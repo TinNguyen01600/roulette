@@ -19,8 +19,13 @@ public:
     void print_data() ;
 };
 
+/*-----------------Printt functions------------------------------*/
 void welcome();
-void initialize(Number *number);
 void print_roulette_table(Number *number);
+
+/*-------------------Task functions-----------------------------*/
+void initialize(Number *number);
+
+/*---------------Configuration functions------------------------*/
 void set_color( int code );
 void gotoxy(int x, int y);
