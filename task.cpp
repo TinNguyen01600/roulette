@@ -1,11 +1,15 @@
 #include "roulette.hh"
 
+//This is method used to set data for class Number
 void Number::set_data(int value, int color)
 {   
     this -> value = value;
     this -> color = color;
 }
 
+//This is the method used to print value and color of a number 
+//in class Number because property 'color' and 'value'
+//cannot be accessed outside of class
 void Number::print_data() 
 {
     set_color(this -> color);
