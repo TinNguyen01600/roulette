@@ -10,6 +10,7 @@ using namespace std;
 #define light_blue 9
 #define cyan 11
 #define yellow 14
+#define green 10
 
 class Number
 {   
