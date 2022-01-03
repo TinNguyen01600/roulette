@@ -2,26 +2,29 @@
 
 void welcome()
 {   
-    gotoxy(30,4);
+    gotoxy(33,1);
+    set_color(light_blue); cout << "******************";
+
+    gotoxy(30,2);
     set_color(cyan); cout << "------ ";
     set_color(yellow); cout<< "Welcome to ";
     set_color(cyan); cout << "-------";
     
-    gotoxy(25,5);
+    gotoxy(25,3);
     set_color(light_blue);  cout << "******** ";
     set_color(yellow); cout << "RED ROCK CASINO ";
     set_color(light_blue); cout << "**********";
 
-    gotoxy(28,6);
+    gotoxy(28,4);
     set_color(cyan); cout << "-----------------------------";
 
-    gotoxy(30,7);
+    gotoxy(30,5);
     set_color(light_blue); cout << "*************************" ;
 
-    gotoxy(33,8);
+    gotoxy(33,6);
     set_color(cyan); cout << "*******************" ;
 
-    gotoxy(20,10);
+    gotoxy(20,8);
     set_color(13); cout << "~~~~~~~~~~~~~~~ Roulette Table ~~~~~~~~~~~~~~~" << endl << endl;
     set_color(white);
 }
@@ -125,4 +128,12 @@ void print_roulette_table(Number *number)
     cout << "|";
     for(i = 0; i<14; i++){ cout << "_"; }
     cout << "|";
+}
+
+void print_odd()
+{
+    cout << endl << endl << "BETTING ODDS:" << endl;
+    cout << "\t # Numbers - 1:30 (winning rate 2.78 %)" << endl;
+    cout << "\t # Area 1, 2, 3 - 1:2 (winning rate 33.33 %) " << endl;
+    cout << "\t # Area 4, 5; EVEN/ODD; RED/GREEN - 1:1 (winning rate 50 %)" << endl;
 }
