@@ -1,2 +1,2 @@
-*.exe
+*.exe   #ignore all .exe file
 .vscode
