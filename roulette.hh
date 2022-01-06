@@ -9,7 +9,7 @@ using namespace std;
 #define white 7
 #define light_blue 9
 #define cyan 11
-#define yellow 14
+#define yellow 6
 #define green 10
 
 class Number

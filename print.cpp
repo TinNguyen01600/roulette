@@ -2,27 +2,27 @@
 
 void welcome()
 {   
-    gotoxy(33,1);
+    gotoxy(34,1);
     set_color(light_blue); cout << "******************";
 
     gotoxy(30,2);
-    set_color(cyan); cout << "------ ";
+    set_color(cyan); cout << "------- ";
     set_color(yellow); cout<< "Welcome to ";
     set_color(cyan); cout << "-------";
     
     gotoxy(25,3);
-    set_color(light_blue);  cout << "******** ";
+    set_color(light_blue);  cout << "********* ";
     set_color(yellow); cout << "RED ROCK CASINO ";
     set_color(light_blue); cout << "**********";
 
     gotoxy(28,4);
-    set_color(cyan); cout << "-----------------------------";
+    set_color(cyan); cout << "------------------------------";
 
     gotoxy(30,5);
-    set_color(light_blue); cout << "*************************" ;
+    set_color(light_blue); cout << "**************************" ;
 
     gotoxy(33,6);
-    set_color(cyan); cout << "*******************" ;
+    set_color(cyan); cout << "********************" ;
 
     gotoxy(20,8);
     set_color(13); cout << "~~~~~~~~~~~~~~~ Roulette Table ~~~~~~~~~~~~~~~" << endl << endl;
@@ -133,9 +133,19 @@ void print_roulette_table(Number *number)
 void print_instruction()
 {
     cout << endl << endl << "BETTING ODDS:" << endl;
-    cout << "\t # Numbers - 1:30 (winning rate 2.78 %)" << endl;
-    cout << "\t # Area 1, 2, 3 - 1:2 (winning rate 33.33 %) " << endl;
-    cout << "\t # Area 4, 5; EVEN/ODD; RED/GREEN - 1:1 (winning rate 50 %)" << endl << endl;
+
+    cout << "\t # Numbers - ";
+    set_color(yellow); cout << "1:30"; set_color(white);
+    cout << " (winning rate 2.78 %)" << endl;
+
+    cout << "\t # Area 1, 2, 3 - "; 
+    set_color(yellow); cout << "1:2"; set_color(white);
+    cout << " (winning rate 33.33 %) " << endl;
+
+    cout << "\t # Area 4, 5; EVEN/ODD; RED/GREEN - ";
+    set_color(yellow); cout << "1:1"; set_color(white);
+    cout << " (winning rate 50 %)" << endl << endl;
+
     cout << "INSTRUCTIONS:" << endl;
     cout << "\t# Choose any number(s) and/or any area(s) from the table" << endl;
     cout << "\t  by entering area no. (1-5) or name (EVEN / ODD / GREEN / RED)" << endl;
