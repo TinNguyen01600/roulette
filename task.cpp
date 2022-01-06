@@ -41,3 +41,22 @@ void initialize(Number *number)
     }
 }
 
+void keyboard_hit()
+{
+    int ch;
+    cout << "Press ENTER to start new game" << endl;
+    cout << "Press ESC to exit";
+    while(1){
+        if ( kbhit() ) {
+            // Stores the pressed key in ch
+            ch = getch();
+            // when escape is pressed
+            if (int(ch) == 27)
+                exit(0);
+            // when enter is pressed
+            if (int(ch) == 13)
+                break;
+        }
+    }
+    loop();
+}
