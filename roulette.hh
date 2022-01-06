@@ -28,6 +28,8 @@ void print_instruction();
 
 /*-------------------Task functions-----------------------------*/
 void initialize(Number *number);
+void keyboard_hit();  // This function is used to start a new game 
+                      // or exit the program using kbhit()
 
 /*---------------Configuration functions------------------------*/
 void set_color( int code );

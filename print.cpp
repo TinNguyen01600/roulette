@@ -140,5 +140,6 @@ void print_instruction()
     cout << "\t# Choose any number(s) and/or any area(s) from the table" << endl;
     cout << "\t  by entering area no. (1-5) or name (EVEN / ODD / GREEN / RED)" << endl;
     cout << "\t# Enter your amount of bet money" << endl;
-    cout << "\t# You can later modify your bet before spinning the roulette" << endl; 
+    cout << "\t# You can later modify your bet before spinning the roulette" << endl << endl; 
+    keyboard_hit();
 }
