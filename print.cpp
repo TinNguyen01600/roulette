@@ -130,10 +130,15 @@ void print_roulette_table(Number *number)
     cout << "|";
 }
 
-void print_odd()
+void print_instruction()
 {
     cout << endl << endl << "BETTING ODDS:" << endl;
     cout << "\t # Numbers - 1:30 (winning rate 2.78 %)" << endl;
     cout << "\t # Area 1, 2, 3 - 1:2 (winning rate 33.33 %) " << endl;
-    cout << "\t # Area 4, 5; EVEN/ODD; RED/GREEN - 1:1 (winning rate 50 %)" << endl;
+    cout << "\t # Area 4, 5; EVEN/ODD; RED/GREEN - 1:1 (winning rate 50 %)" << endl << endl;
+    cout << "INSTRUCTIONS:" << endl;
+    cout << "\t# Choose any number(s) and/or any area(s) from the table" << endl;
+    cout << "\t  by entering area no. (1-5) or name (EVEN / ODD / GREEN / RED)" << endl;
+    cout << "\t# Enter your amount of bet money" << endl;
+    cout << "\t# You can later modify your bet before spinning the roulette" << endl; 
 }

@@ -24,7 +24,7 @@ public:
 /*-----------------Printt functions------------------------------*/
 void welcome();
 void print_roulette_table(Number *number);
-void print_odd();
+void print_instruction();
 
 /*-------------------Task functions-----------------------------*/
 void initialize(Number *number);
