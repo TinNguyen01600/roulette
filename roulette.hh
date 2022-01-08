@@ -24,12 +24,12 @@ public:
 /*-----------------Printt functions------------------------------*/
 void welcome();
 void print_roulette_table(Number *number);
-void print_instruction();
+void print_instruction(Number *number);
 
 /*-------------------Task functions-----------------------------*/
-void loop();
+void loop(Number *number);
 void initialize(Number *number);
-void keyboard_hit();  // This function is used to start a new game 
+void keyboard_hit(Number *number);  // This function is used to start a new game 
                       // or exit the program using kbhit()
 
 /*---------------Configuration functions------------------------*/

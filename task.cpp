@@ -41,7 +41,7 @@ void initialize(Number *number)
     }
 }
 
-void keyboard_hit()
+void keyboard_hit(Number *number)
 {
     int ch;
     cout << "Press ENTER to start new game" << endl;
@@ -58,5 +58,5 @@ void keyboard_hit()
                 break;
         }
     }
-    loop();
+    loop(number);
 }

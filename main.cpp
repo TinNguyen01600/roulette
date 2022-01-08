@@ -6,5 +6,5 @@ int main(){
     Number *number = new Number[36];
     initialize(number);
     print_roulette_table(number);
-    print_instruction();
+    print_instruction(number);
 }

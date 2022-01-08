@@ -130,7 +130,7 @@ void print_roulette_table(Number *number)
     cout << "|";
 }
 
-void print_instruction()
+void print_instruction(Number *number)
 {
     cout << endl << endl << "BETTING ODDS:" << endl;
 
@@ -151,5 +151,5 @@ void print_instruction()
     cout << "\t  by entering area no. (1-5) or name (EVEN / ODD / GREEN / RED)" << endl;
     cout << "\t# Enter your amount of bet money" << endl;
     cout << "\t# You can later modify your bet before spinning the roulette" << endl << endl; 
-    keyboard_hit();
+    keyboard_hit(number);
 }
