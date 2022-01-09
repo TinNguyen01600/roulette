@@ -1,2 +1,3 @@
 *.exe   #ignore all .exe file
 .vscode
+test.cpp
